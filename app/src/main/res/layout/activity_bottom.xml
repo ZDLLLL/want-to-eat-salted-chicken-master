@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#ffff"
+    android:orientation="vertical" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C4C4C4"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/tab_evalute_ll"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/tab_evalute_ib"
+            android:layout_width="23dp"
+            android:layout_height="35dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:clickable="false"
+            android:src="@drawable/evalute_press" />
+
+        <TextView
+            android:id="@+id/tab_evalute_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="测评"
+            android:textColor="#FF4081"/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/lin_tab_menu"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/ic_tab_more" />-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/tab_trend_ll"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_trend_ib"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/trend" />
+        <TextView
+            android:id="@+id/tab_trend_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="趋势"
+            android:textColor="#272727"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tab_find_ll"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tab_find_ib"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/find" />
+        <TextView
+            android:id="@+id/tab_find_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现"
+            android:textColor="#272727"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
